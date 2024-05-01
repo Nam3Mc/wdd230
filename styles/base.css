@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+header img {
+    height: 80px;
+    width: 45px;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: rgb(74, 127, 217);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ nav a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: burlywood;
+}
+
+nav a {
+    color: white;
+}
+
+main h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding: 5px;
+    border-bottom: solid gray;
+    max-width: 94%;
+}
+
+main {
+    max-width:  95%;
+    margin: auto;
+}
+main div {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        max-width: 100%;
+        justify-content: space-around;
+}
+
+section h2 {
+    background-color: rgb(74, 127, 217);
+    text-align: center;
+}
+
+section div {
+    text-align: center;
+    padding: 15px;
+}
+
+section {
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 15px;
+    padding: 5px;
+}
+
+li {
+    padding: 3px;
+}
+
+footer {
+    background-color: rgb(74, 127, 217);
+    text-align: center;
+    max-width: 98%;
+    margin: 5px;
+    height: 70px;
+    padding: 10px;
+}
+
+footer p:nth-child(2) {
+    color: yellow;
+    padding: 10px;
+}
+
+@media (min-width: 640px) {
+    nav a {
+        display: flex ;
+    }
+}
